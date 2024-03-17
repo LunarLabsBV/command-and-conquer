@@ -1,0 +1,110 @@
+digraph G {
+    // Nanobot section
+    Nanobot [label="Nanobot"]
+    load_program -> Nanobot
+    load_materials -> Nanobot
+    replicate -> Nanobot
+
+    // Anomaly detection section
+    detect_anomaly -> data
+    detect_anomaly [label="detect_anomaly()"]
+
+    // Contact hypothesis section
+    verse_hole -> contact_hypothesis
+    dictation -> contact_hypothesis
+    transform -> contact_hypothesis
+    complex_calculation -> contact_hypothesis
+    detect_anomaly -> contact_hypothesis
+    contact_hypothesis [label="contact_hypothesis()"]
+
+    // Spreading operation section
+    data -> spread
+    spread [label="spread()"]
+
+    // Teleportation section
+    entity_from -> teleport
+    entity_to -> teleport
+    teleport [label="teleport()"]
+
+    // Mantle section
+    crust -> mantle
+    mantle [label="mantle()"]
+
+    // Neural anatomy section
+    prefrontal_lim -> anatomy
+    prefrontal_growth -> anatomy
+    anatomy [label="anatomy()"]
+
+    // Multi function section
+    verse_hole -> multi
+    dictation -> multi
+    multi [label="multi()"]
+
+    // Settlement section
+    settlement -> Settlement
+    Settlement [label="Settlement"]
+
+    // Quantum Circuit section
+    quantum_circuit_fry -> Circuit
+    quantum_circuit_get_status -> Circuit
+    Circuit [label="Circuit"]
+
+    // Tool section
+    tool_tuple_2 -> Tool
+    tool_triplet_3 -> Tool
+    tool_attach_rotator_4 -> Tool
+    Tool [label="Tool"]
+
+    // Traffic section
+    flag_g -> traffic
+    flag_f -> traffic
+    flag_m -> traffic
+    traffic [label="traffic()"]
+
+    // Moon section
+    moon_losing -> Moon
+    moon_dawning -> Moon
+    moon_bloodorange -> Moon
+    moon_lust -> Moon
+    Moon [label="Moon"]
+
+    // Burn section
+    burn_x -> Burn
+    burn_y -> Burn
+    burn_z -> Burn
+    Burn [label="Burn"]
+
+    // Tile section
+    tile_0 -> Tile
+    tile_1 -> Tile
+    Tile [label="Tile"]
+
+    // Main section
+    main -> Main
+    scientific_phenomena_validate -> Main
+    quantum_circuit_fry -> Main
+    super_reductionism_pyramid -> Main
+    super_relativity -> Main
+    super_string_theory -> Main
+    Main [label="Main"]
+
+    // Fly-float section
+    fly_float_true -> FlyFloat
+    fly_float_false -> FlyFloat
+    FlyFloat [label="FlyFloat"]
+
+    // Clock section
+    tick -> Clock
+    Clock [label="Clock"]
+
+    // Pyramid section
+    Pyramid_1 -> Pyramid
+    Pyramid_2 -> Pyramid
+    Pyramid [label="Pyramid"]
+
+    // Antenna section
+    Antenna_Array_1 -> AntennaArray
+    Antenna_Array_2 -> AntennaArray
+    Antenna_Array_3 -> AntennaArray
+    AntennaArray [label="AntennaArray"]
+}
